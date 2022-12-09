@@ -1,9 +1,9 @@
 # UIUC_GPA_Prediction
 Team Members:
-Mukesh Naresh Chugani
-Harshit Agarwal
-Kshitij Phulare
-Jonathan David Adamic
+- Mukesh Naresh Chugani
+- Harshit Agarwal
+- Kshitij Phulare
+- Jonathan Adamic
 
 ### Problem:
 The given dataset has the following features:
