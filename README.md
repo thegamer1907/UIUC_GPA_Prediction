@@ -1,32 +1,32 @@
 # UIUC_GPA_Prediction
 Team Members:
-Mukesh Naresh Chugani
-Harshit Agarwal
-Kshitij Phulare
-Jonathan David Adamic
+- Mukesh Naresh Chugani
+- Harshit Agarwal
+- Kshitij Phulare
+- Jonathan Adamic
 
-Problem:
+### Problem:
 The given dataset has the following features:
 Year, Term, Subject, Number, Course Title, Sched Type, Grades (A+,...F / W), Primary instructor
 From a bird’s eye view, the dataset contains the grade distributions of numerous courses taught by various instructors over a period of 12 years i.e. 2010 - 2021 at UIUC. This data can be leveraged to predict the future mean GPA for an upcoming term, given a (course, instructor) pair which may or may not be present in the dataset. As a further step, the future grade distribution could be predicted along with the mean GPA. Deep learning can also facilitate the study of GPA/Grade trends of a course/instructor over a span of multiple years.
 
 
-Data Files:
-uiuc-gpa-dataset.csv - Raw dataset
-working_dataset.pkl - Pickled full dataset
-debugging_dataset.pkl - Pickled partial dataset
-X_Final.pkl - Pickled Preprocessed Input Data (Feed directly to network after splitting)
-Y_Final.pkl - Pickled Corresponding Output Labels for X_Final.pkl
+### Data Files:
+- uiuc-gpa-dataset.csv - Raw dataset
+- working_dataset.pkl - Pickled full dataset
+- debugging_dataset.pkl - Pickled partial dataset
+- X_Final.pkl - Pickled Preprocessed Input Data (Feed directly to network after splitting)
+- Y_Final.pkl - Pickled Corresponding Output Labels for X_Final.pkl
 
-Notebooks:
-G11 GPA_Milestone1.ipynb - Basic data formatting and pickling.
-G11 GPA_Milestone2.ipynb - Contains basic data preprocessing and linear regression baseline.
-G11 GPA_Milestone3.ipynb - Training, Validation, Testing separation and preprocessing. 2 Layer NN. Exploration of different optimizers, hyperparamters, and loss functions. (With Visualizations)
-AdditionalExporation.ipynb - Construction of 6 Layer NN and exploration of optimizers, hyperparameters, and loss functions. (NO VISUALIZATIONS)
+### Notebooks:
+- G11 GPA_Milestone1.ipynb - Basic data formatting and pickling.
+- G11 GPA_Milestone2.ipynb - Contains basic data preprocessing and linear regression baseline.
+- G11 GPA_Milestone3.ipynb - Training, Validation, Testing separation and preprocessing. 2 Layer NN. Exploration of different optimizers, hyperparamters, and loss functions. (With Visualizations)
+- AdditionalExporation.ipynb - Construction of 6 Layer NN and exploration of optimizers, hyperparameters, and loss functions. (NO VISUALIZATIONS)
 
 
-
-Full Project Definition: 
+---
+## Full Project Definition: 
 
 UIUC GPA
 
@@ -36,26 +36,21 @@ https://github.com/wadefagen/datasets/tree/master/gpa (“uiuc-gpa-dataset.csv�
 Most UIUC students are acquainted with Professor Ulmschneider’s historical grade distribution visualization tool. It can be very useful for determining which courses one wants to take. However, calling on historical data, is it possible to instead predict the GPA/grade distribution of UIUC courses in the future? This may be of relevance to those looking to hire new faculty for certain classes, faculty looking to change the structure of their course, and students looking to register early for or avoid altogether certain courses.
 
 Label(s)
-●	Overall GPA (Per Class/Class section)
+-	Overall GPA (Per Class/Class section)
 
 Features:
-●	Term (Given Data)
-●	Year (Given Data)
-●	Student pop. per class (Given Data)
-●	Subject / Department (One-Hot) (Given Data)
-●	Number (Given Data)
-●	Grade (Each Column, “F” through “A+”) (Given Data)
-●	Course Title (One-Hot) (Given Data)
-●	Primary Instructor (One-Hot) (Given Data)
+- Term (Given Data)
+- Year (Given Data)
+-	Student pop. per class (Given Data)
+-	Subject / Department (One-Hot) (Given Data)
+-	Number (Given Data)
+-	Grade (Each Column, “F” through “A+”) (Given Data)
+-	Course Title (One-Hot) (Given Data)
+-	Primary Instructor (One-Hot) (Given Data)
 
 Project Curated by Jared Canty (Summer 2022 Blackwell Program)
 
-
-
-
-
-
-
+---
 
 MIT License
 
